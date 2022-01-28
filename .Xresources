@@ -1,0 +1,53 @@
+! Tokyo Night Xresources palette
+*.foreground: #a9b1d6
+*.background: #1a1b26
+*.cursorColor: #a9b1d6
+*.highlightColor: #3a3f4b
+*.color0:     #1a1b26
+*.color8:     #4e5173
+*.color1:     #f7768e
+*.color9:     #e06c75
+*.color2:     #e0af68
+*.color10:    #d19a66
+*.color3:     #9ece6a
+*.color11:    #98c379
+*.color4:     #7aa2f7
+*.color12:    #61afef
+*.color5:     #9a7ecc
+*.color13:    #c678dd
+*.color6:     #4abaaf
+*.color14:    #56b6c2
+*.color7:     #acb0d0
+*.color15:    #abb2bf
+
+! ------------------------------------------------------------------------------
+! Font configuration
+! ------------------------------------------------------------------------------
+
+URxvt*font:				xft:Iosevka:regular:size=10
+URxvt*boldFont:			xft:Iosevka:bold:size=10
+URxvt*italicFont:		xft:Iosevka:italic:size=10
+URxvt*boldItalicFont:	xft:Iosevka:bold italic:size=10
+
+
+! ------------------------------------------------------------------------------
+! URxvt configs
+! ------------------------------------------------------------------------------
+
+! font spacing
+URxvt*letterSpace:		0
+URxvt.lineSpace:		0
+
+! general settings
+URxvt*saveline:			15000
+URxvt*termName:			rxvt-256color
+URxvt*iso14755:			false
+URxvt*urgentOnBell:		true
+
+! appearance
+URxvt*depth:			24
+URxvt*scrollBar:		false
+URxvt*scrollBar_right:	false
+URxvt*internalBorder:	24
+URxvt*externalBorder:	0
+URxvt.geometry:			84x22
